@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>PetConnect – Adopt a Friend</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="64x64">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="site-header" id="mainNavbar">
+        <div class="navbar-container">
+            <div class="logo">🐾 PetConnect</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active-link">Home</a></li>
+                    <li><a href="#pets">Pets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1><span class="typewriter"></span></h1>
+            <p>Find your new best friend and give them a forever home ❤️</p>
+            <a href="#pets" class="cta-btn">View Pets</a>
+        </div>
+    </section>
+
+
+  <div class="testimonial">
+    “PetConnect made our adoption process so easy and joyful!”
+    <h4>– A Happy Adopter</h4>
+  </div>
+
+
+    <section id="pets" class="pets section-spacing">
+        <h2>Available Pets</h2>
+        <div class="filter-buttons">
+            <button onclick="filterPets('all')" class="active">All</button>
+            <button onclick="filterPets('dog')">Dogs</button>
+            <button onclick="filterPets('cat')">Cats</button>
+        </div>
+        <div class="pet-cards" id="petCards">
+            <div class="card dog">
+                <img src="images/dog1.png" alt="Buddy the Dog">
+                <h3>Buddy</h3>
+                <p>Friendly golden retriever, 2 years old</p>
+            </div>
+            <div class="card cat">
+                <img src="images/cat1.png" alt="Luna the Cat">
+                <h3>Luna</h3>
+                <p>Playful tabby cat, 1 year old</p>
+            </div>
+            <div class="card dog">
+                <img src="images/dog2.png" alt="Max the Dog">
+                <h3>Max</h3>
+                <p>Energetic labrador, 3 years old</p>
+            </div>
+             <div class="card dog">
+                <img src="images/dog3.png" alt="Rocky the Dog">
+                <h3>Rocky</h3>
+                <p>Energetic labrador, 3 years old</p>
+            </div>
+            <div class="card cat">
+                <img src="images/cat2.png" alt="Cleo the Cat">
+                <h3>Cleo</h3>
+                <p>Calm Siamese, 4 years old</p>
+            </div>
+            <div class="card cat">
+                <img src="images/cat3.png" alt="Lily the Cat">
+                <h3>Lily</h3>
+                <p>serious, 3 years old</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact section-spacing">
+  <h2><span>Contact</span> Us</h2>
+  <div class="contact-box">
+    <p><strong>Email:</strong> support@petconnect.com</p>
+    <p><strong>Phone:</strong> +91-9876543210</p>
+    <p><strong>Instagram:</strong> @petconnect</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 <strong>PetConnect</strong>. All rights reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
